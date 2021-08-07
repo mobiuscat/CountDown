@@ -13,6 +13,8 @@ class MainActivity : AppCompatActivity() {
     private val interval:Long = 1 * 1000
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTheme(R.style.Theme_CountDown)
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
